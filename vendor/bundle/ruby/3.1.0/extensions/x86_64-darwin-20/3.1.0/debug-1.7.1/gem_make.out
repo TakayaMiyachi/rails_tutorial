@@ -1,0 +1,16 @@
+current directory: /Users/miyachitakaya/Documents/rails_tutorial/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+/Users/miyachitakaya/.rbenv/versions/3.1.2/bin/ruby -I /Users/miyachitakaya/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230206-97054-jjrl3y.rb extconf.rb
+creating Makefile
+
+current directory: /Users/miyachitakaya/Documents/rails_tutorial/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/miyachitakaya/Documents/rails_tutorial/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/miyachitakaya/Documents/rails_tutorial/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230206-97054-cn2uiq/debug
