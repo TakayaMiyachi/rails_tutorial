@@ -8,6 +8,9 @@ Rails.application.routes.draw do
 
   #/users/1
   #/users/2
+<<<<<<< HEAD
   get '/users', to: 'users#index', as: "users"
+=======
+>>>>>>> eaec58409c6e4fa2074d3d1954869fe2e4cd3252
   get '/users/:id', to: 'users#show', as: "user"
 end

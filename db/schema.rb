@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[7.0].define(version: 2023_02_08_110321) do
+=======
+ActiveRecord::Schema[7.0].define(version: 2023_02_06_123744) do
+>>>>>>> eaec58409c6e4fa2074d3d1954869fe2e4cd3252
   create_table "users", force: :cascade do |t|
     t.string "name", limit: 128, null: false
     t.integer "age"
@@ -19,6 +23,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_08_110321) do
     t.index ["name"], name: "index_users_on_name"
   end
 
+<<<<<<< HEAD
   create_table "weight_histories", force: :cascade do |t|
     t.integer "user_id", null: false
     t.integer "wight"
@@ -29,4 +34,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_08_110321) do
   end
 
   add_foreign_key "weight_histories", "users"
+=======
+>>>>>>> eaec58409c6e4fa2074d3d1954869fe2e4cd3252
 end
